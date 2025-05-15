@@ -1,0 +1,217 @@
+.fc-event-custom {
+    background-color: #3788d8;
+    color: #fff;
+    padding: 6px 8px;
+    border-radius: 6px;
+    font-size: 0.85em;
+    white-space: normal;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.fc-event-title-custom,
+.fc-event-desc-custom {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+
+.card.proyecto-draggable {
+    background-color: #f0c000;
+    /* amarillo claro */
+    border: 1px solid #f0c000;
+    transition: transform 0.2s ease;
+}
+
+.card.proyecto-draggable:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#listaProyectos .card-body {
+    padding: 15px;
+}
+
+
+#calendar {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    min-height: 600px;
+    width: 100% !important;
+}
+
+
+.btn-group-top {
+    margin-bottom: 1rem;
+}
+
+
+#listaProyectos>.col-md-3 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+
+@media (max-width: 768px) {
+
+    .col-md-4,
+    .col-md-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+.fc-prev-button,
+.fc-next-button,
+.fc-today-button {
+    background-color: rgb(0, 93, 192) !important;
+    border-color: #007bff;
+    color: white;
+}
+
+
+.fc-button-primary {
+    background-color: rgb(0, 93, 192) !important;
+    border-color: #007bff;
+    color: white;
+}
+
+
+.fc-today-button {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.fc-header-toolbar .fc-toolbar-title {
+    font-weight: bold;
+}
+
+.fc-icon-chevron-left,
+.fc-icon-chevron-right {
+    color: white;
+}
+
+.fc .fc-col-header-cell {
+    background-color: rgb(0, 93, 192) !important;
+    text-align: center;
+    position: relative;
+}
+
+.fc .fc-col-header-cell span {
+    color: white !important;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.fc .fc-col-header-cell * {
+    z-index: 1 !important;
+    position: relative;
+}
+
+.fc .fc-col-header-cell .fc-col-header-cell-cushion {
+    color: white !important;
+}
+
+.fc-timeGridWeek-view .fc-scrollgrid-shim td:first-child,
+.fc-timeGridDay-view .fc-scrollgrid-shim td:first-child {
+    background-color: #007bff !important;
+}
+
+.fc .fc-scrollgrid-sync-table thead>tr>.fc-timegrid-axis {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+
+.fc .fc-scrollgrid,
+.fc .fc-scrollgrid-section {
+    border-color: #007bff !important;
+}
+
+th.fc-timegrid-axis {
+    background-color: rgb(0, 93, 192);
+}
+
+
+
+.sidebar {
+    background-color: #003366 !important;
+}
+
+
+
+.main-sidebar {
+    background-color: #003366 !important;
+    color: white !important;
+}
+
+
+.main-sidebar .nav-link,
+.main-sidebar .brand-text,
+.main-sidebar .nav-icon,
+.main-sidebar .nav-link p {
+    color: white !important;
+}
+
+.form-inline .btn-sidebar {
+    background-color: green !important;
+    color: white;
+}
+
+
+.main-sidebar .nav-link:hover {
+    background-color: #0056b3 !important;
+}
+
+.custom-blue {
+    color: #003366 !important;
+}
+
+.rounded-circle {
+    background-color: #87CEEB;
+}
+
+.btn-custom-blue {
+    background-color: #0e6cca !important;
+    border-color: #004c99;
+    color: white !important;
+}
+
+.btn-custom-blue:hover {
+    background-color: #003366 !important;
+    border-color: #003366 !important;
+}
+
+.encabezado-usuarios th {
+    background-color: #004c99;
+    color: white;
+}
+
+.encabezado-usuarios th:hover {
+    background-color: #0668d0;
+}
+
+.modal-header-custom {
+    background-color: #003366;
+    color: white;
+}
+
+.modal-header-custom .close {
+    color: white;
+    opacity: 1;
+}
